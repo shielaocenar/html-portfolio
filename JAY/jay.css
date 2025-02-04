@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+
+@media(min-width:50px) and (max-width:1000px) {
+    main {
+         background-color: blueviolet;
+         
+   }
+}
+@media(min-width:100px) and (max-width:1000px) {
+    main {
+        background-color: khaki
+    }
+}
+@media(min-width: 1201px) and (max-width: 1600px) {
+    main {
+        background-color: limegreen;
+    }
+}
+@media (min-width: 1601px) {
+    main {
+        background-color: seagreen;
+    }
+}
